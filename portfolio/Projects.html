@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Projects</title>
+  <style>
+    body {
+      background-color: rgb(0, 0, 34);
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section {
+      margin-bottom: 60px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    h3 {
+      text-align: center;
+      margin-bottom: 15px;
+      font-size: 24px;
+    }
+
+    .quiz-container {
+      position: relative;
+      text-align: center;
+    }
+
+    .quiz-container img {
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .play-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.7);
+      border: none;
+      cursor: pointer;
+      font-size: 50px;
+      color: white;
+      padding: 15px;
+      border-radius: 50%;
+      transition: background-color 0.3s ease;
+    }
+
+    .play-icon:hover {
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    p {
+      margin-top: 20px;
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .play-icon {
+        font-size: 40px;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Projects</h1>
+
+  <!-- Quiz App Section -->
+  <div class="section">
+    <h3>Quiz: Interactive Web App</h3>
+    <div class="quiz-container">
+      <img src="q.jpeg" alt="Quiz App Thumbnail">
+      <button class="play-icon" onclick="window.location.href='https://incomparable-axolotl-0aa23d.netlify.app/'">&#9658;</button>
+    </div>
+    <p>
+      A dynamic web app that offers an interactive quiz experience with multiple categories, real-time scoring, and responsive design. Built with HTML, CSS, and JavaScript, and deployed on Netlify for fast access. The app includes smooth transitions, instant feedback, and a secure user experience.
+    </p>
+  </div>
+
+  <!-- Tic Tac Toe App Section -->
+  <div class="section">
+    <h3>Tic Tac Toe: 2-Player Web Game</h3>
+    <div class="quiz-container">
+      <img src="tictactoe.png" alt="Tic Tac Toe Thumbnail">
+      <button class="play-icon" onclick="window.location.href='https://dynamic-cranachan-2406e3.netlify.app/'">&#9658;</button>
+    </div>
+    <p>
+      Developed a responsive Tic Tac Toe web app using HTML, CSS, and JavaScript. It features smooth 2-player gameplay, winner detection, and a clean UI for a fun and intuitive experience.
+    </p>
+  </div>
+
+</body>
+</html>
